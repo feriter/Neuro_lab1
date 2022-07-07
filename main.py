@@ -87,7 +87,7 @@ def draw_gains(init_data, target_attr):
 
 
 if __name__ == '__main__':
-    initial_data = pd.read_csv('Data', sep=';')
+    initial_data = pd.read_csv('Data.csv', sep=';')
     initial_data.info()
     columns = initial_data.columns.values
     row_count = initial_data.shape[0]
